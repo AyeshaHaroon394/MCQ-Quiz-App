@@ -1,3 +1,86 @@
 <resources>
     <string name="app_name">My-Quiz-App</string>
+    <string-array name="questions">
+        <item>In Harry Potter and the Philosophers Stone, what object does Harry first catch in his mouth during a Quidditch match?</item>
+        <item>What is the name of the Weasley family’s home?</item>
+        <item>What is the name of the house-elf who serves the Malfoy family?</item>
+        <item>Which of these spells is used to disarm an opponent?</item>
+        <item>What type of dragon does Harry face in the Triwizard Tournament?</item>
+        <item>Who is the ghost of Ravenclaw house?</item>
+        <item>What is the name of the train that takes students to Hogwarts?</item>
+        <item>What does Dumbledore leave to Hermione in his will?</item>
+        <item>Which magical creature pulls the carriages at Hogwarts?</item>
+        <item>What does the Marauder’s Map reveal?</item>
+    </string-array>
+
+        <string-array name="q1_options">
+            <item>Remembrall</item>
+            <item>Snitch</item>
+            <item>Bludger</item>
+            <item>Quaffle</item>
+        </string-array>
+
+        <string-array name="q2_options">
+            <item>The Nest</item>
+            <item>The Burrow</item>
+            <item>Ottery St. Catchpole</item>
+            <item>Hogsmeade Cottage</item>
+        </string-array>
+
+        <string-array name="q3_options">
+            <item>Dobby</item>
+            <item>Winky</item>
+            <item>Kreacher</item>
+            <item>Hokey</item>
+        </string-array>
+
+        <string-array name="q4_options">
+            <item>Expelliarmus</item>
+            <item>Avada Kedavra</item>
+            <item>Alohomora</item>
+            <item>Crucio</item>
+        </string-array>
+
+        <string-array name="q5_options">
+            <item>Swedish Short Snout</item>
+            <item>Norwegian Ridgeback</item>
+            <item>Hungarian Horntail</item>
+            <item>Common Welsh Green</item>
+        </string-array>
+
+        <string-array name="q6_options">
+            <item>The Fat Friar</item>
+            <item>The Bloody Baron</item>
+            <item>Nearly Headless Nick</item>
+            <item>The Grey Lady</item>
+        </string-array>
+
+        <string-array name="q7_options">
+            <item>Knight Bus</item>
+            <item>Hogwarts Express</item>
+            <item>The Lightning Train</item>
+            <item>Wizarding Locomotive</item>
+        </string-array>
+
+        <string-array name="q8_options">
+            <item>A wand</item>
+            <item>The Tales of Beedle the Bard</item>
+            <item>A Deluminator</item>
+            <item>A Snitch</item>
+        </string-array>
+
+        <string-array name="q9_options">
+            <item>Hippogriffs</item>
+            <item>House Elves</item>
+            <item>Thestrals</item>
+            <item>Basilisks</item>
+        </string-array>
+
+        <string-array name="q10_options">
+            <item>Hidden messages</item>
+            <item>People’s thoughts</item>
+            <item>Secret passages</item>
+            <item>The location of everyone in Hogwarts</item>
+        </string-array>
+
 </resources>

@@ -12,7 +12,6 @@
         android:id="@+id/counter"
         android:textSize="18sp"
         android:textStyle="bold"
-        android:text="1/10"
         android:textColor="@color/black"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
@@ -46,7 +45,6 @@
             android:id="@+id/question"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="What is the name of the magical creature that can only be seen by those who have witnessed death?"
             android:textSize="20sp"
             android:textStyle="bold"
             android:textColor="@android:color/black"/>
@@ -65,7 +63,6 @@
             android:layout_width="match_parent"
             android:id="@+id/opt1"
             android:textColor="@color/black"
-            android:text="Option 1"
             android:background="@drawable/inputfield"
             android:backgroundTint="@color/white"
             android:textSize="18sp"
@@ -76,7 +73,6 @@
             android:layout_width="match_parent"
             android:id="@+id/opt2"
             android:textColor="@color/black"
-            android:text="Option 2"
             android:background="@drawable/inputfield"
             android:backgroundTint="@color/white"            android:textSize="18sp"
             android:layout_marginTop="10dp"
@@ -87,7 +83,6 @@
             android:layout_width="match_parent"
             android:id="@+id/opt3"
             android:textColor="@color/black"
-            android:text="Option 3"
             android:background="@drawable/inputfield"
             android:backgroundTint="@color/white"            android:textSize="18sp"
             android:layout_marginTop="10dp"
@@ -98,7 +93,6 @@
             android:layout_width="match_parent"
             android:id="@+id/opt4"
             android:textColor="@color/black"
-            android:text="Option 4"
             android:background="@drawable/inputfield"
             android:backgroundTint="@color/white"            android:textSize="18sp"
             android:layout_marginTop="10dp"
@@ -106,7 +100,7 @@
     </RadioGroup>
 
     <Button
-        android:id="@+id/btn_next"
+        android:id="@+id/nextBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Next"
