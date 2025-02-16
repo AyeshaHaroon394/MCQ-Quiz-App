@@ -31,7 +31,7 @@
         android:layout_marginTop="100dp"
         android:text=" Enter your name: "
         android:textColor="@color/white"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:textStyle="bold"
         />
 
@@ -40,8 +40,9 @@
         android:layout_width="350dp"
         android:layout_height="50dp"
         android:hint="  Your Name"
-        android:textSize="16sp"
-        android:background="@drawable/roundbtn"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:background="@drawable/inputfield"
         android:layout_below="@id/nameLabel"
         android:layout_marginTop="10dp"
         android:layout_centerHorizontal="true"
@@ -50,16 +51,15 @@
     <Button
         android:id="@+id/startbtn"
         android:layout_width="250dp"
-        android:layout_height="100dp"
+        android:layout_height="50dp"
         android:text="Start"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:padding="10dp"
         android:background="@drawable/startbtn"
         android:textColor="@android:color/white"
         android:layout_below="@id/username"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="83dp"
-        android:backgroundTint="#FFB6C1"
         />
 
 

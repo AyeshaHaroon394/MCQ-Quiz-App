@@ -5,6 +5,10 @@
         <item name="colorPrimary">#FFB6C1</item>
         <item name="colorPrimaryContainer">#FFB6C1</item>
         <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="android:windowBackground">#6d123f</item> <!-- Dark pink background for dark mode -->
+        <item name="colorAccent">#6d123f</item> <!-- Dark pink buttons -->
+        <item name="android:textColorPrimary">#ffffff</item> <!-- White text for dark mode -->
+        <item name="android:textColorSecondary">#d3b7c5</item>
     </style>
 
     <style name="Theme.MyQuizApp" parent="Base.Theme.MyQuizApp" />
