@@ -3,6 +3,9 @@ package com.example.my_quiz_app;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
+import android.widget.ImageView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,6 +15,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class SplashScreenActivity extends AppCompatActivity {
 
+    ImageView idLogo;
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
@@ -25,6 +29,12 @@ public class SplashScreenActivity extends AppCompatActivity {
          */
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_screen);
+
+        //loading the animation from the file created in res/anim folder
+        idLogo = findViewById(R.id.idlogo);
+        Animation logoAnimation = AnimationUtils.loadAnimation(this, R.anim.logo_anim);
+        idLogo.setAnimation(logoAnimation);
+
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
@@ -32,7 +42,7 @@ public class SplashScreenActivity extends AppCompatActivity {
                 startActivity(intent);
                 finish();
             }
-        }, 3000);
+        }, 2000);
 
     }
 }
