@@ -36,9 +36,10 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/counter"
         android:layout_marginTop="20dp"
-        android:background="@android:color/white"
+        android:background="@drawable/questionframe"
         android:padding="20dp"
         android:orientation="vertical"
+        android:elevation="10dp"
         android:gravity="center">
 
         <TextView
@@ -65,7 +66,8 @@
             android:id="@+id/opt1"
             android:textColor="@color/black"
             android:text="Option 1"
-            android:background="@color/white"
+            android:background="@drawable/inputfield"
+            android:backgroundTint="@color/white"
             android:textSize="18sp"
             />
 
@@ -75,8 +77,8 @@
             android:id="@+id/opt2"
             android:textColor="@color/black"
             android:text="Option 2"
-            android:background="@color/white"
-            android:textSize="18sp"
+            android:background="@drawable/inputfield"
+            android:backgroundTint="@color/white"            android:textSize="18sp"
             android:layout_marginTop="10dp"
             />
 
@@ -86,8 +88,8 @@
             android:id="@+id/opt3"
             android:textColor="@color/black"
             android:text="Option 3"
-            android:background="@color/white"
-            android:textSize="18sp"
+            android:background="@drawable/inputfield"
+            android:backgroundTint="@color/white"            android:textSize="18sp"
             android:layout_marginTop="10dp"
             />
 
@@ -97,8 +99,8 @@
             android:id="@+id/opt4"
             android:textColor="@color/black"
             android:text="Option 4"
-            android:background="@color/white"
-            android:textSize="18sp"
+            android:background="@drawable/inputfield"
+            android:backgroundTint="@color/white"            android:textSize="18sp"
             android:layout_marginTop="10dp"
             />
     </RadioGroup>
@@ -111,6 +113,7 @@
         android:textSize="18sp"
         android:textColor="@color/white"
         android:backgroundTint="#6d123f"
+        android:layout_centerHorizontal="true"
         android:layout_below="@id/rGrp"
         android:layout_marginTop="150dp"
         android:layout_marginBottom="20dp"/>
